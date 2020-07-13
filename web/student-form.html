@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student register</title>
+</head>
+<body>
+<form action="student-response.jsp">
+    <!--this is html text input-->
+    First name:<input type="text" name="firstName"/>
+    <br/><br/>
+    Last name:<input type="text" name="lastName"/>
+    <br/><br/>
+
+    <!--radio type (can chose only one)-->
+    Chose programming Language <br/>
+    <input type="radio" name="programLanguage" value="Java SE"> Java SE
+    <input type="radio" name="programLanguage" value="Java EE"> Java EE
+    <input type="radio" name="programLanguage" value="C#"> C#
+    <br/><br/>
+
+    <!--checkbox type (can chose multi)-->
+    Select Framework <br/>
+    <input type="checkbox" name="framework" value="Spring"> Spring
+    <input type="checkbox" name="framework" value="Spring Boot"> Spring Boot
+    <input type="checkbox" name="framework" value="Grails"> Grails
+    <input type="checkbox" name="framework" value="Go"> Go
+    <input type="checkbox" name="framework" value=".Net"> .Net
+    <br/><br/>
+
+    <!--this is html dropdown list and select-->
+    Select country:
+    <select name="country">
+        <option>Cambodia</option>
+        <option>Thailand</option>
+        <option>Vitname</option>
+        <option>China</option>
+        <option>Pililion</option>
+        <option>US</option>
+        <option>English</option>
+    </select>
+    <!--submit button-->
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
